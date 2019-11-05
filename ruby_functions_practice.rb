@@ -53,3 +53,7 @@ def number_to_short_month_name(month)
   end
   #
 end
+
+def volume_of_cube(edge_length)
+  return edge_length ** 2
+end
