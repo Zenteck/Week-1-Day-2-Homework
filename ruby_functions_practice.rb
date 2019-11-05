@@ -55,5 +55,9 @@ def number_to_short_month_name(month)
 end
 
 def volume_of_cube(edge_length)
-  return edge_length ** 2
+  return edge_length ** 3
+end
+
+def volume_of_sphere(radius)
+  return (4.0 / 3) * 3.145 * radius ** 3
 end
